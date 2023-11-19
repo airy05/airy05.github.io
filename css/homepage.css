@@ -259,6 +259,7 @@ main {
 
 .list-paragraf {
     margin-top: 0.5rem;
+    margin-left: 1rem;
 }
 
 @media only screen and (max-width:600px) {
@@ -342,9 +343,10 @@ footer {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    padding: 0 200px 0 200px;
+    padding: 0 10vw 0 10vw;
     font-size: 14px;
     font-weight: 300;
+    margin-bottom: 3vw;
 }
 
 .info {
@@ -372,10 +374,18 @@ footer {
     transform: scale(1.2); /* Збільшити розмір на 20% при наведенні */
     transition: transform 0.3s ease; /* Плавний перехід */
 }
+.footer-hr {
+    border-top-color: #000;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    
+    color: #000;
+}
 
 .all-rights-res {
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 2vw;
     font-weight: 300;
     line-height: 16px;
     text-align: center;
